@@ -1,0 +1,24 @@
+[<script type="text/javascript" src="(#CHEMIN{js/jquery.jparallax.js})"></script>]
+[<script type="text/javascript" src="(#CHEMIN{js/jquery.ahover.js})"></script>]
+[<script type="text/javascript" src="(#CHEMIN{js/jquery.easing.1.3.js})"></script>]
+
+<script type="text/javascript">
+$(function(){
+	// parallaxiser l'entete
+	$('#entete #parallax').jparallax();
+
+	jQuery.easing.def = "easeOutBack";
+	
+	$('#pied ul li').ahover({moveSpeed: 500, toggleSpeed: 300});
+
+	// passer les blocs forum et sur le web dans la nav
+	$('body.page_sommaire #contenu .menu:gt(0)').appendTo('#extra');
+
+	// les admins peuvent repondre aux forums
+	setTimeout(function(){
+		if (typeof configCrayons != 'undefined' && configCrayons.droits)
+			$('.repondre').show();
+	}, 3000);
+});
+
+</script>

@@ -1,0 +1,10 @@
+<plugin>
+	<nom>ZZZ</nom>
+	<auteur>baroug &amp; Fil</auteur>
+	<licence></licence>
+  <version>0.1</version>
+	<description>Love me, tender</description>
+  <icon>vignette.png</icon>
+  <etat>dev</etat>
+  <prefix>theme</prefix>
+</plugin>
