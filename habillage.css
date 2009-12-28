@@ -201,6 +201,8 @@ ul.forum, ul.forum ul { list-style: none; }
 .forum-texte { margin: 0; padding: 0.50em 1em; color: #333; }
 .forum-texte .hyperlien {}
 .forum-texte .repondre { margin: 0; padding: 0.10em 0; text-align: right; }
+.forum .ancre {float:left; margin-right:0.5em;}
+.forum .spip_logos {float:right; margin: 0 2px 4px 10px;}
 
 /* Boite d'un forum : eclaircissement prssement progressif des bords */
 ul .forum-message { margin: 0; padding: 0; margin-bottom: 1em; background: #fff;}
