@@ -217,6 +217,25 @@ ul ul ul ul ul .forum-chapo { background: #FFF; }
 
 .forum blockquote.spip { border: 5px solid #fbfbd0; background: #fff; padding: 0px 15px 5px 15px;} 
 
+
+/* forums de cuisine-libre */
+.comments-list .comment{padding:.5em 0 0 0;border-top:1px solid #ccc;}
+.comments-list .comment p{margin-bottom:.5em;}
+.comments-list ul{display:block;clear:both;margin:0;padding:0;}
+.comments-list ul li .comment {position:relative;padding:1em 0 0em 48px;font-size:.94em;line-height:1.5em;}
+.comments-list ul li .comment .comment-meta,.comments-list ul li .comment .comment-meta *{color:#666;}
+.comments-list ul li .comment .comment-meta{margin-bottom:3px;}
+.comments-list ul li .comment .comment-meta abbr{border:0;}
+.comments-list ul li .comment .comment-meta img.avatar{position:absolute;left:0;}
+.comments-list ul li .comment .comment-meta .ancre{position:absolute;right:0;font-size:1.4em;font-weight:bold;font-style:italic;text-decoration:none;color:#DDD;display:none;}
+.comments-list ul li .comment li{list-style-position:inside;}
+
+/* report des couleurs zzz dans le plugin comments */
+.comments-list .comment-meta { border: 0; margin: 0; padding: 10px 15px 10px 15px; background: #ff6600; }
+.comments-list .comment { margin: 0; padding: 0; margin-bottom: 1em; background: #fff;}
+
+.comments-list .comment.reply {border-top:none; padding-top:0;}
+
 /* Habillage des petitions
 ---------------------------------------------- */
 #signatures { clear: both; margin: 0 0 2em 0; padding: 0; background: none; }
