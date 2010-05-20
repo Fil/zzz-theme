@@ -17,8 +17,12 @@ $(function(){
 	// les admins peuvent repondre aux forums
 	setTimeout(function(){
 		if (typeof configCrayons != 'undefined' && configCrayons.droits)
-			$('.repondre').show();
-	}, 3000);
+			$('.comment')
+			.hover(
+				function() { $('.repondre', this).show();},
+				function() { $('.repondre', this).hide();}
+			);
+	}, 1000);
 });
 
 </script>
