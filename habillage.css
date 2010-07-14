@@ -327,6 +327,21 @@ color:#ff6600;
 }
 
 
+/* coloriser les ancres */
+/* appels de note */
+a.spip_note:target {
+	background-color:orange;
+	color: red;
+}
+/* notes de bas de page */
+.notes *:target {
+	background-color:orange;
+	color:black;
+}
+.notes *:target a {
+	color:red;
+}
+
 
 /* forums : ne pas repondre aux messages */
 .forum-message p.repondre {display:none;}
