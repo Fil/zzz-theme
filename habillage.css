@@ -198,7 +198,9 @@ ul.forum, ul.forum ul { list-style: none; }
 .forum-fil { margin-top: 1.50em; }
 .forum-fil ul { display: block; margin: 0; padding: 0; margin-left: 1em; }
 .forum-chapo .forum-titre, .forum-chapo .forum-titre a { display: block; margin: 0; padding: 0; font-weight: bold; color: #333; }
-.forum-texte { margin: 0; padding: 0.50em 1em; color: #333; }
+.forum-texte { margin: 0; padding: 0.50em 1em; color: #333;
+	overflow:auto; /* http://blogs.sitepoint.com/2005/02/26/simple-clearing-of-floats/ */
+}
 .forum-texte .hyperlien {}
 .forum-texte .repondre { margin: 0; padding: 0.10em 0; text-align: right; }
 .forum .ancre {float:left; margin-right:0.5em;}
@@ -235,6 +237,10 @@ ul ul ul ul ul .forum-chapo { background: #FFF; }
 .comments-list .comment { margin: 0; padding: 0; margin-bottom: 1em; background: #fff;}
 
 .comments-list .comment.reply {border-top:none; padding-top:0;}
+
+/* forum en reponse : decaler de 50px */
+.comments-list .comment>ul { border-left:50px solid #FBFBD0; }
+
 
 /* Habillage des petitions
 ---------------------------------------------- */
