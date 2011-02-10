@@ -75,6 +75,10 @@ a code.spip_code {
 color: #bbb664; text-decoration: none;
 }
 
+.spip_cadre {
+width: 98%;
+}
+
 .texte a:hover code.spip_code, .spip_cadre a:hover {
 color: #ff6600;
 }
