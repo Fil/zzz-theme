@@ -224,7 +224,10 @@ ul ul ul ul ul .forum-chapo { background: #FFF; }
 .comments-list .comment{padding:.5em 0 0 0;border-top:1px solid #ccc;}
 .comments-list .comment p{margin-bottom:.5em;}
 .comments-list ul{display:block;clear:both;margin:0;padding:0;}
-.comments-list ul li .comment {position:relative;padding:1em 0 0em 48px;font-size:.94em;line-height:1.5em;}
+.comments-list ul li .comment {position:relative;font-size:.94em;line-height:1.5em;}
+
+.comments-list>ul>li>.comment {padding:1em 0 0em 48px;}
+
 .comments-list ul li .comment .comment-meta,.comments-list ul li .comment .comment-meta *{color:#666;}
 .comments-list ul li .comment .comment-meta{margin-bottom:3px;}
 .comments-list ul li .comment .comment-meta abbr{border:0;}
@@ -239,7 +242,7 @@ ul ul ul ul ul .forum-chapo { background: #FFF; }
 .comments-list .comment.reply {border-top:none; padding-top:0;}
 
 /* forum en reponse : decaler de 50px */
-.comments-list .comment>ul { border-left:50px solid #FBFBD0; }
+.comments-list>.comment>ul { border-left:50px solid #FBFBD0; }
 
 
 /* Habillage des petitions

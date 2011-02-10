@@ -15,8 +15,8 @@ $(function(){
 	// passer les blocs forum et sur le web dans la nav
 	$('body.page_sommaire #contenu .menu:gt(0)').appendTo('#extra');
 
-	// repondre aux forums / au survol
-	$('.comment-message')
+	// repondre aux forums / au survol ; premier niveau seulement
+	$('.comments-list>li>.comment-message')
 	.hover(
 		function() { $('.repondre', this).show();},
 		function() { $('.repondre', this).hide();}
