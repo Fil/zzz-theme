@@ -62,7 +62,7 @@ blockquote.spip { border: 0px; background: #fff; padding: 20px;}
 blockquote.spip_poesie {} /*Cf.: spip_style.css */
 
 .spip_code, .spip_code code {
-color:#000;
+color: #000099;
 font-family: Courier,"Courier New",monospace;
 }
 
@@ -77,6 +77,7 @@ color: #bbb664; text-decoration: none;
 
 .spip_cadre {
 width: 98%;
+font-size: smaller;
 }
 
 .texte a:hover code.spip_code, .spip_cadre a:hover {
